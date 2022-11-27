@@ -1,5 +1,6 @@
 import { model, Schema } from "mongoose";
 
+//Модель задачи которая будет в БД
 const TodoModel = new Schema({
     title: { type: String, require: true },
     date: { type: String, require: true },
